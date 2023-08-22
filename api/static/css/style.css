@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAF9E8;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+table {
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 22px;
+    padding: 10px;
+    text-align: left;
+    border: 3px dashed #EE4823;
+}
+
+td {
+    padding: 10px;
+    border: 3px dashed #EE4823;
+}
