@@ -81,20 +81,6 @@ app.post("/products", bodyParser.json(), (req, res) => {
   });
 });
 
-// Delete products from api
-
-app.delete("/product/:id", (req, res) => {
-  const query = `
-    DELETE FROM Products WHERE prodID = ${req.params.id};`;
-  db.query(query, (err) => {
-    if (err) throw err;
-    res.json({
-      status: res.statusCode,
-      msg: "Product was successfully deleted",
-    });
-  });
-});
-
 // add user
 
 app.post("/users", bodyParser.json(), (req, res) => {
